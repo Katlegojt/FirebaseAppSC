@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>deleteItem</ion-title>
+    <ion-back-button slot="start"defultHref="/"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let item of itemList " (click)="delete(item, item.key)">
+<ion-label>
+  
+  {{ item.name }}
+  {{ item.price }}
+  {{ item.type }}
+
+</ion-label>
+</ion-item>
+</ion-list>
+
+</ion-content>

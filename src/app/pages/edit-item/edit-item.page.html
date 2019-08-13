@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>editItem</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label position="floating">Name : </ion-label>
+    <ion-input [(ngModel)]="item.name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Price :</ion-label>
+    <ion-input [(ngModel)]="item.price"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Type :</ion-label>
+    <ion-input [(ngModel)]="item.type" ></ion-input>
+  </ion-item>
+  <ion-button color="primary" (click)='updaeItem(item , item.key)'>update</ion-button>
+</ion-content>
