@@ -21,7 +21,7 @@ const firebaseConfig = {
   projectId: "ionic4shoppingapp",
   storageBucket: "ionic4shoppingapp.appspot.com",
   messagingSenderId: "671164324529",
-  appId: "1:671164324529:web:1d3a464b3486496b"
+  
 };
 
 
