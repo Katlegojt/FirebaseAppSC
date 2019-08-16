@@ -3,7 +3,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { User } from 'src/app/home/modules/user';
 import { Router } from '@angular/router';
 import { auth } from 'firebase';
-import { BehaviorSubject } from 'rxjs';
+
 
 @Component({
   selector: 'app-login',

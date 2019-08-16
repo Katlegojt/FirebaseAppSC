@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>oneTimePin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-label position="floating">Phone:</ion-label>
+        <ion-input [(ngModel)]="phone" name="phone"></ion-input>
+      </ion-item>
+      <ion-button >send me OTP</ion-button><br>
+      <ion-label position="floating">Verication Code:</ion-label>
+      <ion-item>
+        
+        <ion-input slot="start" [(ngModel)]="phone" name="phone"></ion-input>
+      <ion-button slot="end">send</ion-button></ion-item>
+      
+</ion-content>

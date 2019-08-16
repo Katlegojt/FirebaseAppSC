@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'delete-item', loadChildren: './pages/delete-item/delete-item.module#DeleteItemPageModule' },
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './pages/register/register.module#RegisterPageModule' },
+  { path: 'one-time-pin', loadChildren: './pages/one-time-pin/one-time-pin.module#OneTimePinPageModule' },
 ];
 
 @NgModule({
