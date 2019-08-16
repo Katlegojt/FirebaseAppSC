@@ -21,6 +21,7 @@ email;
 
   constructor(private grocery: GroceryService, private alertcontroler: AlertController, private router: Router, public afAuth: AngularFireAuth) {
 
+    this.ionViewWillLoad();
     this.grocery.getItemSnapChanges().subscribe(data => {
      this.itemList = data.map ( e => {
        return{
@@ -39,6 +40,7 @@ email;
     this.afAuth.authState.subscribe(data => {
       
       this.email = data.email;
+      
     });
   }
 

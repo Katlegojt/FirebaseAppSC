@@ -14,16 +14,6 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAYhKvO-rR4UCY-SlKAJyk1hFxwthJXLYs",
-  authDomain: "ionic4shoppingapp.firebaseapp.com",
-  databaseURL: "https://ionic4shoppingapp.firebaseio.com",
-  projectId: "ionic4shoppingapp",
-  storageBucket: "ionic4shoppingapp.appspot.com",
-  messagingSenderId: "671164324529",
-  
-};
-
 
 @NgModule({
   declarations: [AppComponent,],
