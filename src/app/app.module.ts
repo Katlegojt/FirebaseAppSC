@@ -12,11 +12,19 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
-import * as firebase from 'firebase/app';
+
 
 
 
 const firebaseConfig = {
+  apiKey: "AIzaSyAYhKvO-rR4UCY-SlKAJyk1hFxwthJXLYs",
+  authDomain: "ionic4shoppingapp.firebaseapp.com",
+  databaseURL: "https://ionic4shoppingapp.firebaseio.com",
+  projectId: "ionic4shoppingapp",
+  storageBucket: "ionic4shoppingapp.appspot.com",
+  messagingSenderId: "671164324529",
+  appId: "1:671164324529:web:1d3a464b3486496b"
+};
 
 
 @NgModule({
